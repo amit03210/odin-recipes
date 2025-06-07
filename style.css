@@ -1,0 +1,53 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container,
+.heading,
+.recipe-list {
+    border-radius: 3px;
+}
+
+.container {
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+}
+
+.heading {
+    background-color: purple;
+    padding: 8px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.list{
+    list-style: none;
+}
+
+.recipe-list {
+    text-decoration: none;
+    padding: 8px;
+    background-color: rgb(230, 44, 230);
+}
+
+ul{
+    padding: 0;
+}
+
+.recipe-list li {
+    padding: 3px;
+    margin: 2px;
+    background-color: brown;
+    
+}
+
+a {
+    color: white;    
+    text-decoration: none;
+}
+
+a:hover {
+    color:blue
+}
